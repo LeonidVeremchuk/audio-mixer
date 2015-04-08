@@ -14,4 +14,4 @@ proguard/
 gradle
 gradlew
 *.iml
-*.bat
+*.txt
