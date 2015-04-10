@@ -1,1 +1,1 @@
-include ':app', ':audio-mixer'
+include ':app', ':audio-mixer', ':audio-mixer-library'
