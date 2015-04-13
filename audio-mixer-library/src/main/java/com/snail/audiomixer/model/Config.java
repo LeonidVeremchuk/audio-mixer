@@ -1,7 +1,5 @@
 package com.snail.audiomixer.model;
 
-import com.snail.audiomixer.audio.SnailAudioMixer;
-
 /**
  * Created by leonid on 4/10/15.
  */

@@ -3,7 +3,7 @@ package com.snail.audiomixer.io;
 import android.content.Context;
 
 import com.google.common.io.ByteStreams;
-import com.snail.audiomixer.audio.data.PCMData;
+import com.snail.audiomixer.data.PCMData;
 import com.snail.audiomixer.model.Config;
 
 import java.io.DataInputStream;
