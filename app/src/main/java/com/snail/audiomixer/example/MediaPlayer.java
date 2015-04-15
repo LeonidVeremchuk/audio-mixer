@@ -8,6 +8,6 @@ import android.content.Context;
 public class MediaPlayer {
 
     public void initPlayer(Context context,String mediaPath){
-        android.media.MediaPlayer.create(context,)
+//        android.media.MediaPlayer.create(context,);
     }
 }

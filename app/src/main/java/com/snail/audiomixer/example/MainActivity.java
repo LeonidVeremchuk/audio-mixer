@@ -52,13 +52,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         config.setSampleRate(Config.SampleRate.RATE_44100);
 
         AudioEntry audioEntry = new AudioEntry(0, "path");
-        AudioEntry audioEntry2 = new AudioEntry(300, "path");
-        AudioEntry audioEntry3 = new AudioEntry(500, "path");
+        AudioEntry audioEntry2 = new AudioEntry(0, "path");
+        AudioEntry audioEntry3 = new AudioEntry(0, "path");
+
+        audioMixer.setConfig(config);
 
         audioMixer.setAudio(audioEntry);
         audioMixer.setAudio(audioEntry2);
         audioMixer.setAudio(audioEntry3);
-        audioMixer.setConfig(config);
 
         PCMData pcmData = audioMixer.mixAudio(this);
         WAVWriter.writeToPath(pcmData, "path");
